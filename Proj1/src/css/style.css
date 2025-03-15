@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+a {
+    display: block;
+    margin-top: 20px;
+    color: #eaeaea;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#componente {
+    display: flex;              /* Activează Flexbox */
+    flex-direction: column;     /* Elemente aranjate pe verticală */
+    gap: 10px;                  /* Spațiu între elemente */
+    width: 300px;               /* Lățimea div-ului */
+    margin: 20px auto;          /* Centrarea div-ului pe pagină */
+    padding: 10px;              /* Spațiu intern */
+    background-color: #f0f0f0;  /* Fundal deschis */
+    border-radius: 10px;        /* Colțuri rotunjite */
+}
+
+/* Stil pentru fiecare buton */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addButton {
+    background-color: green;
+    color: white;
+}
+
+#deleteButton {
+    background-color: red;
+    color: white;
+}
+
+#myTextarea {
+    width: 100%;
+    resize: none;
+    height: 25px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 22px;
+
+}
